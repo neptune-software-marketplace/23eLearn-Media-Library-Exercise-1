@@ -1,0 +1,92 @@
+{
+	"id": "f7f50cd0-be68-4154-8dd4-ee8880c418f6",
+	"createdAt": "2024-01-24T11:37:39.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/23eLearn-Media-Library-Exercise-1"
+	},
+	"name": "23eLearn-Media-Library-Exercise-1",
+	"description": null,
+	"ver": "24.1.29.1638",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "fe61f9d8-db2b-4a1a-a95f-a5b4d2b970d9",
+			"application": "media_library_demo",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "f7f50cd0-be68-4154-8dd4-ee8880c418f6"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "ab507e04-00a4-4848-ace3-d3e4c11dce26",
+			"name": "products_demo",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "881f31ec-5741-4ca2-9352-574402f9c9ab",
+			"name": "products_demo",
+			"description": null
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "76ce42fa-5bf1-4827-9daf-3747ca3265ed",
+			"description": null,
+			"name": "Production Tile"
+		},
+		{
+			"id": "4fa2e613-fc15-449b-9a9a-d35394b6e08a",
+			"description": null,
+			"name": "Maintenance Tile"
+		},
+		{
+			"id": "35d5d059-0093-48be-a6ed-13e3c7609a19",
+			"description": null,
+			"name": "Sales Tile"
+		}
+	],
+	"category": [
+		{
+			"id": "cfef12e3-0934-4ee1-b8f7-4fb6eb0b5366",
+			"description": null,
+			"name": "Media_Tilegroup"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "0cd50149-fa5a-4521-9cb4-b724d66cdaca",
+			"name": "media_library_demo_launchpad",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

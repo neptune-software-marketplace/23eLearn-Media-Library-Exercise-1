@@ -1,0 +1,364 @@
+{
+	"id": "ab507e04-00a4-4848-ace3-d3e4c11dce26",
+	"createdAt": "2024-01-23T11:48:49.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "cf5fec1c-ae4c-4b31-8679-00b62d361203",
+			"path": "/products_demo",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "products_demo"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "45ea0b7d-81c4-44b8-b83c-5072f82dd353",
+			"path": "/products_demo",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "products_demo"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "products_demo"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "90730f1a-1bc6-4331-aaa3-37b94722d281",
+			"path": "/products_demo",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "products_demo"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "products_demo"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "207f95c5-e3a0-40a9-b26f-7c41f358f96c",
+			"path": "/products_demo",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "products_demo"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "0ed47289-9610-4e48-b117-edbb7085ad9b",
+			"path": "/products_demo/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "c341dce7-97c6-4683-a25c-f4e304cebcbf",
+			"name": "products_demo",
+			"properties": [
+				{
+					"id": "9f7a28fa-33fd-48c5-a914-91cdd5e1a36f",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "8a2fa49c-5485-4ce2-afc4-c69bd2cd0f24",
+					"parent": "",
+					"name": "PRODNAME",
+					"objectType": "string"
+				},
+				{
+					"id": "199f1082-1676-4bfa-ac0f-6f1614e6bcfd",
+					"parent": "",
+					"name": "SERIALNUM",
+					"objectType": "string"
+				},
+				{
+					"id": "789f7898-cc36-402e-8c7a-5f8b2dce6da5",
+					"parent": "",
+					"name": "IMAGE",
+					"objectType": "string"
+				},
+				{
+					"id": "33ee43b8-4203-4c52-895d-735cf69bcbff",
+					"parent": "",
+					"name": "QRCODE",
+					"objectType": "string"
+				},
+				{
+					"id": "506b3c72-8bd7-4baa-8e8b-a55418e1dd21",
+					"parent": "",
+					"name": "PRICE",
+					"objectType": "string"
+				},
+				{
+					"id": "cb30e580-f2b2-4153-8800-9219442ed010",
+					"parent": "",
+					"name": "CURRENCY",
+					"objectType": "string"
+				},
+				{
+					"id": "54cadfbd-cf35-42be-b460-489603de8337",
+					"parent": "",
+					"name": "AVAILABILITY",
+					"objectType": "string"
+				},
+				{
+					"id": "00417f33-4953-4340-90be-7cf007af011b",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "883bf34a-c568-49b3-8e62-4a527bdc9150",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "bcacd17c-9f49-49a6-9ff6-b9a94376ef28",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "e4d31483-1653-4bdf-aeff-959a82b68116",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "9fb37fa2-5b7e-42a8-8129-9b3dda390064",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "c046cfb9-2690-4301-82cd-3bc0e6978bee",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "554b2cb1-1668-4dd6-836f-36228ff140c8",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "9dae7165-e7b4-4702-9262-9696d6dd24b4",
+			"name": "count",
+			"properties": [
+				{
+					"id": "d4853113-f09f-4edc-8c2d-e59dae234d17",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "products_demo",
+	"endpoint": "/api/entity",
+	"ver": "24.1.24.1138",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "f7f50cd0-be68-4154-8dd4-ee8880c418f6",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

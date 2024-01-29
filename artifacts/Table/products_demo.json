@@ -1,0 +1,59 @@
+{
+	"id": "881f31ec-5741-4ca2-9352-574402f9c9ab",
+	"createdAt": "2024-01-23T11:47:49.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "6665a59c-bb56-4382-a9e5-eed466079367",
+			"fieldName": "PRODNAME",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "cba88f19-ae0e-4f29-e3b4-735b7221f8f6",
+			"fieldName": "SERIALNUM",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "6e036d64-abe8-4b20-9eff-b6b46201ffe8",
+			"fieldName": "IMAGE",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "f9f32aeb-655a-4734-945d-8b8fd48387fe",
+			"fieldName": "QRCODE",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "aad28809-0996-4659-f2a6-ff655f72a27b",
+			"fieldName": "PRICE",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "8b4ee7b7-c9aa-4dd4-f046-fc6700e75e8c",
+			"fieldName": "CURRENCY",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "e494ee9f-dc32-44f5-d0e7-f1c77158cdb6",
+			"fieldName": "AVAILABILITY",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "products_demo",
+	"description": null,
+	"ver": "24.1.24.1138",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "f7f50cd0-be68-4154-8dd4-ee8880c418f6",
+	"rolesRead": [],
+	"rolesWrite": []
+}
